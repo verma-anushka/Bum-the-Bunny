@@ -50,7 +50,7 @@ function hop(){
 }
 
 function startGame(){
-    btn.classList.toggle("paused");
+    // btn.classList.toggle("paused");
     btn.classList.add("hide");
     scoreBoard.textContent = 0;
     score = 0;
@@ -60,10 +60,8 @@ function startGame(){
 }
 
 function hammer(event){
-    console.log("xjnd s");
     clicked++;
     this.classList.remove('up');
-
     // if(!event.isTrusted){
     //     return;
     // }

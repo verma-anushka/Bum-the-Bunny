@@ -34,7 +34,6 @@ body{
     color: #FFF;
 }
 .rabbit {
-    /* margin: auto; */
     float: left;
     left: 15%;
     margin-top: 3%;
@@ -86,7 +85,6 @@ body{
     left: 81%;
     margin-top: 6%;
     margin-bottom: -2%;
-
     background:#FFF;
     width:2em;
     height:2em;
@@ -198,7 +196,6 @@ body{
 .button:hover {
     border-color: transparent transparent transparent #FFF;
 }
-
 .score{
     float: left;
     margin-top: 0.1%;
