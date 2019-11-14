@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <title>Bum the Bunny</title>
+    
     <link rel="stylesheet" href="assets/styles.css">
     
-    <title>Bum the Bunny</title>
 </head>
 <body>
     
     <span class="score">0</span>
+    <div id="hourglass-wrapper" class="hourglass-wrapper hide">
+        <div class="hourglass">
+            <div id="sand-top-up"></div>
+            <div id="sand-top-down"></div>
+            <div id="sand-bottom-up"></div>
+            <div id="sand-bottom-down"></div>
+            <div id="pour"></div>
+            <div id="mask"></div>
+        </div>
+    </div>
 
     <div class="title">
         <div class="rabbit"></div>
@@ -22,7 +32,7 @@
         </span>
     </div>
     
-    <div class="game">
+    <div class="game" id="game">
         <div class="hole hole1">
             <div class="bunny"></div>
         </div>

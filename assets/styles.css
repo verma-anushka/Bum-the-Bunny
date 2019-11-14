@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 html{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-size: 10px;
     background: url('../assets/images/bg.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -209,6 +209,200 @@ body{
     width: 100px;
     padding: 0 3rem;
     line-height: 1;
+}
+.hourglass-wrapper {
+    float: left;
+    position: relative;
+    top: 80px;
+    left: -150px;
+    width: 60px;
+    height: 60px;
+    background: #EEE;
+    border: 10px solid #7F683F;
+    padding: 50px;
+    border-radius: 100%;
+    -webkit-animation: flip 150s linear infinite;
+}
+@-webkit-keyframes flip {
+   0% {
+        -webkit-transform: rotate(0deg);
+   }
+   45% {
+        -webkit-transform: rotate(0deg);
+   }
+   50% {
+        -webkit-transform: rotate(180deg);
+   }
+   95% {
+        -webkit-transform: rotate(180deg);
+   }
+   100% {
+        -webkit-transform: rotate(360deg);
+   }
+}
+.hourglass {
+    float: left;
+    position: absolute;
+    margin: 0 auto;
+    width: 60px;
+    top: 10px;
+    bottom: 10px;
+    border: 2px solid #7F683F;
+}
+.hourglass:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    height: 20px;
+    background: #7F683F;
+}
+.hourglass:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    right: -10px;
+    height: 20px;
+    background: #7F683F;
+}
+.sand-top-up {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    -webkit-animation: top-up 140s ease-in-out infinite;
+}
+@-webkit-keyframes top-up {
+   0% {
+        top: 10px;
+        bottom: 50%;
+   }
+   50% {
+        top: 50%;
+        bottom: 50%;
+        opacity: 1;
+   }
+   51% {
+        opacity: 0;
+   }
+   100% {
+        opacity: 0;
+   }
+}
+.sand-top-down {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    top: 10px;
+    bottom: 50%;
+    -webkit-animation: top-down 140s ease-in-out infinite;
+}
+@-webkit-keyframes top-down {
+   0% {
+        opacity: 0;
+   }
+   50% {
+        opacity: 0;
+        top: 10px;
+        bottom: 90%;
+   }
+   51% {
+        opacity: 1;
+   }
+   100% {
+        bottom: 50%;
+        top: 10px;
+        opacity: 1;
+   }
+}
+.sand-bottom-up {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    top: 50%;
+    bottom: 0;
+    -webkit-animation: bottom-up 140s ease-in-out infinite;
+}
+@-webkit-keyframes bottom-up {
+   0% {
+        top: 100%;
+        bottom: 0;
+        opacity: 1;
+   }
+   50% {
+        top: 50%;
+        bottom: 0;
+        opacity: 1;
+   }
+   51% {
+        opacity: 0;
+   }
+   100% {
+        opacity: 0;
+   }
+}
+.sand-bottom-down {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    top: 50%;
+    bottom: 0;
+    -webkit-animation: bottom-down 140s ease-in-out infinite;
+}
+@-webkit-keyframes bottom-down {
+   0% {
+        opacity: 0;
+   }
+   50% {
+        opacity: 0;
+   }
+   51% {
+        top: 50%;
+        bottom: 0;
+        opacity: 1;
+   }
+   100% {
+        top: 50%;
+        bottom: 50%;
+        opacity: 1;
+   }
+}
+.pour {
+    position: absolute;
+    width: 49%;
+    top: 10px;
+    bottom: 0;
+    border-right: 2px dashed white;
+    -webkit-animation: line 140s ease-in-out infinite;
+}
+@-webkit-keyframes line {
+   0% {
+        top: 50%;
+        bottom: 0;
+   }
+   50% {
+        top: 50%;
+        bottom: 50%;
+   }
+   100% {
+        top: 10px;
+        bottom: 50%;
+   }
+}
+.mask {
+    position: relative;
+    box-sizing: border-box;
+    top: 10px;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 58.5px 30px;
+    border-color: transparent #EEE;
+    z-index: 100;
 }
 .game{
     width: 1000px;
