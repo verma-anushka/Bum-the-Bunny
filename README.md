@@ -14,7 +14,6 @@ If you have more suggestions or you wish to add more features, just open a pull 
 
 
 ## Game Overview :rabbit2:
-![Bum the Bunny](/assets/images/BumTheBunny1.png)
-![Bum the Bunny](/assets/images/BumTheBunny2.png)
+![Bum the Bunny](/assets/images/BumTheBunny1.PNG)
+![Bum the Bunny](/assets/images/BumTheBunny2.PNG)
 
-# Fun-with-Maths
