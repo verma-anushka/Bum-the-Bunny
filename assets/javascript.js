@@ -1,5 +1,4 @@
-// var holes = [];
-let game = document.getElementById("game");
+const game = document.getElementById("game");
 const holes = document.querySelectorAll('.hole');
 const scoreBoard = document.querySelector('.score');
 const bunnies = document.querySelectorAll('.bunny');
@@ -88,9 +87,6 @@ function startGame(){
 function hammer(event){
     clicked++;
     this.classList.remove('up');
-    // if(!event.isTrusted){
-    //     return;
-    // }
     if( clicked === 1 ){
         score++;
         scoreBoard.textContent = score;    
