@@ -8,12 +8,16 @@ To start playing:
     - Open the 'index.html' file and start playing!
     
     **or**
+
   - Visit the link: [https://verma-anushka.github.io/Bum-the-Bunny/](https://verma-anushka.github.io/Bum-the-Bunny/).
+    
+    **or**
 
-If you have more suggestions or you wish to add more features, just open a pull request :shipit:
-
+- You can also find **Bum The Bunny** and many more cool games at the link: https://verma-anushka.github.io/Gaming-Zone/.
 
 ## Game Overview :rabbit2:
-![Bum the Bunny](/assets/images/BumTheBunny1.PNG)
-![Bum the Bunny](/assets/images/BumTheBunny2.PNG)
+![Bum the Bunny](/assets/images/BumTheBunny1.png)
+![Bum the Bunny](/assets/images/BumTheBunny2.png)
+
+If you have more suggestions or you wish to add more features, just open a pull request :shipit:
 
